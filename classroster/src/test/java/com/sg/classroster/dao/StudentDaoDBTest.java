@@ -4,6 +4,7 @@
  */
 package com.sg.classroster.dao;
 
+import com.sg.classroster.dto.Course;
 import com.sg.classroster.dto.Student;
 import com.sg.classroster.dto.Teacher;
 import java.util.ArrayList;
