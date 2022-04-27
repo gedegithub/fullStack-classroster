@@ -8,6 +8,7 @@ import com.sg.classroster.dao.TeacherDao;
 import com.sg.classroster.dto.Teacher;
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
+import org.springframework.stereotype.Controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
