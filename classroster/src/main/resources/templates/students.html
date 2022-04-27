@@ -60,8 +60,8 @@
                         <td th:text="${student.id}">Teacher ID</td>
                         <td th:text="${student.firstName}">Teacher First Name</td>
                         <td th:text="${student.lastName}">Teacher Last Name</td>
-                        <td>Edit</td>
-                        <td>Delete</td>
+                        <a href="#" th:href="@{/deleteStudent(id=${student.id})}">Delete</a>
+                        <a href="#" th:href="@{/editStudent(id=${student.id})}">Edit</a>
                     </tr>
                 </tbody>
             </table>
