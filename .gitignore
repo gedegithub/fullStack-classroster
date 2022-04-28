@@ -34,3 +34,5 @@ build/
 ### VS Code ###
 .vscode/
 /classroster/nbproject/
+classroster/src/main/resources/application.properties
+classroster/src/test/resources/application.properties
